@@ -1,0 +1,151 @@
+
+/* from: https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/ */
+.skip {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    a.skip:active,
+    a.skip:focus,
+    a.skip:hover {
+        left: 0;
+        top: 0;
+        width: auto;
+        height: auto;
+        overflow: visible;
+    }
+
+/* styling for tagline content on about page */
+.welcome {}
+  .footer-nav
+
+  /* might not need this depending on style */
+  .contact
+
+/* for winter schedule announcement emphasized text */
+.announcement
+
+/* for schedule */
+.schedule{}
+
+body header img {
+    display: block;
+    margin: 5px 17px;
+    padding: 0;
+    width: 20%;
+    height: auto;
+  }
+
+body header nav ul {
+  list-style-type: none;
+  margin: 2px 2px 2px 2px;
+  padding: 0;
+  overflow: auto;
+  background-color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+body header nav li {
+  display: inline-block;
+  text-align: left;
+}
+
+body header nav li a {
+  display: block;
+  color: rgba(0,28,147,1.0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: 20px;
+  font-family: "PT Sans", sans-serif
+}
+
+/* Change the link color to #111 (black) on hover */
+body header nav li a:hover {
+  color: rgba(225,50,25,1.0);
+}
+
+header nav .current {
+  color: rgba(225,50,25,1.0);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body h1 {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 28pt;
+  font-weight: bold;
+  color: #000;
+}
+
+body h2 {
+  text-align: left;
+  font-family: "PT Sans", sans-serif;
+  font-size: 26pt;
+  font-weight: semi-bold;
+  color: #000;
+}
+
+body p {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12pt;
+  font-weight: regular, none;
+  color: #000;
+}
+
+footer h1 {
+  text-align: left;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #000;
+}
+
+footer p {
+  text-align: left;
+  font-family: "PT Sans", sans-serif;
+  font-size: 12pt;
+  font-weight: regular, none;
+  color: #000;
+  padding: 4px;
+}
+
+footer nav ul {
+  display: inline-block
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+footer nav li {
+  display: block;
+  text-align: left;
+}
+
+footer nav li a {
+  color: rgba(0,28,147,1.0);
+  text-align: left;
+  padding: 2px 2px;
+  text-decoration: none;
+  font: 12px;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+footer nav li a:hover {
+  color: rgba(225,50,25,1.0);
+}
